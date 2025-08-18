@@ -17,7 +17,7 @@ It allows users to check real-time weather across different regions in Algeria w
   - Cloud coverage
   - Wind speed
 - 🌍 **Multilingual support** (Arabic / English) with i18n
-- ⏰ **Dynamic date & time** displayed according to the selected language
+- ⏰ **Dynamic date & time** 
 - 🎨 **Modern UI** with Material UI (MUI)
 - 📱 **Responsive design** for all devices
 

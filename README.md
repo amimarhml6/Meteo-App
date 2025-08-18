@@ -1,12 +1,35 @@
-# React + Vite
+# 🌤️ Meteo-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive weather application built with **React**.  
+It allows users to check real-time weather across different regions in Algeria with a **modern, responsive, and multilingual (English & Arabic)** interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [Meteo-App on Vercel](https://your-vercel-link.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔎 **Search regions** (e.g., Algiers, Boumerdes, Oran, etc.)
+- 🌡️ **Weather details**:
+  - Current temperature
+  - Max & Min temperature
+  - Humidity
+  - Cloud coverage
+  - Wind speed
+- 🌍 **Multilingual support** (Arabic / English) with i18n
+- ⏰ **Dynamic date & time** displayed according to the selected language
+- 🎨 **Modern UI** with Material UI (MUI)
+- 📱 **Responsive design** for all devices
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ [React](https://reactjs.org/)
+- 🌐 [OpenWeather API](https://openweathermap.org/) (Weather data)
+- 🎨 [Material UI](https://mui.com/) (UI Components)
+- 🌍 [React i18next](https://react.i18next.com/) (Internationalization)
+- 📡 [Axios](https://axios-http.com/) (HTTP requests)
+- ⏳ [Moment.js](https://momentjs.com/) (Date & Time formatting)
+- 🇩🇿 [FlagCDN](https://flagcdn.com/) (Country flags)
+

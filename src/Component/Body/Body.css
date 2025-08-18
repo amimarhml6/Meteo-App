@@ -1,0 +1,73 @@
+.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 750px; 
+    padding: 20px 25px;
+    margin: 25px auto; 
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.Body-Up {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.Up-Place{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.p-PlaceI{
+    font-size: 13px;
+}
+.h1-UP{
+    font-size: 79px;
+    font-weight: 600;
+}
+.p-PlaceD{
+    margin-top: -20px;
+    font-weight: 560;
+}
+.h2-Place{
+    font-size: 34px;
+}
+.Down-Info {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+.Weather-Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.weather-Info {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.icon-info{
+    margin-top:10px ;
+}
+.Down-Title{
+    margin-bottom: 10px;
+}
+.p-Down{
+    font-size: 20px;
+    font-weight: 650; 
+}

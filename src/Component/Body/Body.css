@@ -71,3 +71,130 @@
     font-size: 20px;
     font-weight: 650; 
 }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .Body {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .h1-UP {
+    font-size: 70px;
+  }
+
+  .h2-Place {
+    font-size: 30px;
+  }
+
+  .p-Down {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Body {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .h1-UP {
+    font-size: 60px;
+  }
+
+  .h2-Place {
+    font-size: 26px;
+  }
+
+  .p-Down {
+    font-size: 18px;
+  }
+}
+
+/* Mobiles (max-width: 768px) */
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .Body {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .Body-Up {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Up-Place {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .h1-UP {
+    font-size: 50px;
+  }
+
+  .h2-Place {
+    font-size: 22px;
+  }
+
+  .p-PlaceI {
+    font-size: 12px;
+  }
+
+  .Down-Info {
+    gap: 10px;
+  }
+
+  .Weather-Card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .p-Down {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Très petits mobiles (max-width: 480px) */
+@media (max-width: 480px) {
+  .Body {
+    padding: 0px;
+    border-radius: 10px;
+  }
+
+  .h1-UP {
+    font-size: 38px;
+  }
+
+  .h2-Place {
+    font-size: 18px;
+  }
+
+  .p-Down {
+    font-size: 14px;
+  }
+
+  .Weather-Card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .weather-Info {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .icon-info {
+    margin-top: 0;
+  }
+}

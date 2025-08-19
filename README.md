@@ -3,7 +3,7 @@
 An interactive weather application built with **React**.  
 It allows users to check real-time weather across different regions in Algeria with a **modern, responsive, and multilingual (English & Arabic)** interface.
 
-🔗 **Live Demo**: [Meteo-App on Vercel](https://your-vercel-link.vercel.app)
+🔗 **Live Demo**: [Meteo-App on Vercel](https://meteo-app-xi.vercel.app/)
 
 ---
 
